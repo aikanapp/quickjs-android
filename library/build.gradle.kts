@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace = "com.github.aikan.quickjs_android"
+    namespace = "com.hippo.quickjs.android"
     compileSdk = 34
 
     defaultConfig {

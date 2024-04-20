@@ -23,3 +23,4 @@ dependencyResolutionManagement {
 
 include(":android-test")
 include(":library")
+include(":library-test")

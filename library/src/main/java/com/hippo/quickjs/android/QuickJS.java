@@ -167,4 +167,9 @@ public class QuickJS {
 
   static native long evaluate(long context, String sourceCode, String fileName, int flags);
   static native int executePendingJob(long context);
+
+  static native int createClassId();
+  static native int createClass(long runtime, long classId, String className,long finalizer);
+
+
 }
