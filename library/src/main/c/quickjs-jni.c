@@ -1175,3 +1175,8 @@ JNI_OnLoad(JavaVM *vm, void __unused * reserved) {
 
     return JNI_VERSION_1_6;
 }
+
+JNIEXPORT jint JNICALL
+Java_com_hippo_quickjs_android_QuickJS_createClassId(JNIEnv *env, jclass clazz) {
+    JS_NewClassID(NULL)
+}
